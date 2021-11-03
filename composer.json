@@ -1,0 +1,24 @@
+{
+    "name": "kasfy/universe",
+    "type": "library",
+    "description": "Core container package for KasfY",
+    "keywords": ["framework","php","cli","gitleaf"],
+    "homepage": "https://gitleaf.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Katheeskumar S",
+            "email": "katheeskumar@gitleaf.com",
+            "homepage": "https://katheesh.js.org",
+            "role": "Software Engineer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Universe\\": "src/Universe/",
+            "Universe\\Support\\": ["src/Universe/DB/", "src/Universe/Exception/", "src/Universe/Middlewares/"]
+        }
+    },
+    "require": {}
+}
